@@ -1,0 +1,24 @@
+﻿@using Lab02.Models
+@{
+    ViewData["Title"] = "File Read/Write";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>File Read/Write</h2>
+
+<form asp-action="Manage" asp-controller="Student" method="post">
+    <div>Student ID</div>
+    <input name="Id" value="@ViewBag.Id" />
+
+    <div>Full Name</div>
+    <input name="Name" value="@ViewBag.Name" />
+
+    <div>Average Marks</div>
+    <input name="Marks" value="@ViewBag.Marks" />
+
+    <hr />
+    <input type="submit" value="Lưu" name="command" />
+    <input type="submit" value="Mở" name="command" />
+</form>
+
+<h4>@ViewBag.Message</h4>
