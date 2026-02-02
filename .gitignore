@@ -1,0 +1,19 @@
+# Directories
+bin/
+obj/
+.vs/
+.vscode/
+Debug/
+Release/
+
+# Files
+*.dll
+*.exe
+*.pdb
+*.suo
+*.user
+*.db
+*.log
+appsettings.local.json
+.DS_Store
+Thumbs.db
